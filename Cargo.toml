@@ -1,1 +1,9 @@
+[package]
+name = "tc01-temp"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name"]
 
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+ni-daqmx-sys = "20.7"   # Matches common DAQmx 2020+ installs (update if needed)
